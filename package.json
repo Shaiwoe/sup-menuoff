@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "nuxt": "^3.3.3",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1"
+  },
+  "dependencies": {
+    "@chenfengyuan/vue-countdown": "^2.1.1",
+    "@formkit/nuxt": "^0.16.4",
+    "form-data": "^4.0.0",
+    "h3-formidable": "^0.2.2",
+    "lodash": "^4.17.21",
+    "vue-toastification": "^2.0.0-rc.5"
+  }
+}
